@@ -1,5 +1,5 @@
 # We-Like-Games
-
+![](https://media.giphy.com/media/37Fsl1eFxbhtu/giphy.gif)
 
 ## Project Description
 
