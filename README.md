@@ -1,74 +1,69 @@
-# Project Overview
+# We-Like-Games
 
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This is a site where gamers can check out what games I am currently playing and search games by keywords they are interested in, and see if I have played it.
 
 ## Wireframes
-
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
+I could not get this to work
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+A site that displays what game Matt Swaim is currently playing from the game API
 
 #### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- See a cool site
+- See what games Matt Swaim is playing
+- Read about the games by clicking on them
 
 #### PostMVP EXAMPLE
-
-- Add user auth
+- A search function that returns sick heckin games
+- Have flippable cards that return from the search
+- Allow user to choose favorites 
+- Allow them to rate games and add them to a library
 
 ## React Component Hierarchy
 
-Define the the React components and the architectural design of your app.
+- Simple UI.
+Components:
+- Header
+- Footer 
+- Main
+  - Game-List
+    - Game-Info
+  - Search 
 
-## Functional Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
-| Component | Description | 
-| --- | :---: |  
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
-
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Structure Components | H | 3hrs| .. | .. |
+| Working with API | H | 4hrs | .. | .. |
+| CSS | H | 20hrs| .. | .. |
+| PostMVP | M | 14hrs| .. | .. |
+
 
 ## Helper Functions
-Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
+Helper functions should be generic enough that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
 
 | Function | Description | 
 | --- | :---: |  
-| Capitalize | This will capitalize the first letter in a string of text | 
+| Search | This is a search that autofills as the user types | 
+| Hecking Gamer Button| This is a 10/10 button | 
 
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+
+
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+..
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+..
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+..
