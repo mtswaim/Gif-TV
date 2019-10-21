@@ -10,7 +10,7 @@ export default function Remote(props) {
       <button name="Cooking" onClick={props.handleChange}>Food</button>
       <button name="Cats" onClick={props.handleChange}>Cats</button>
       <button name="Music Video" onClick={props.handleChange}>MTV</button>
-      <button></button>
+      <button id="netflix" name="The office" onClick={props.handleChange}>Netflix</button>
     </div>
   )
 }
