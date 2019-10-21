@@ -1,0 +1,47 @@
+body {
+  margin: 0 auto;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-warm-modern-home-living-room-background-design-room-backgroundtv-setcoffee-image_53608.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.Gif {
+  position: absolute;
+  left: 33vw;
+  top: 8vh;
+  max-width: 200px;
+  max-height: 200px;
+
+}
+img {
+  width: 268px;
+  height: 220px;
+  border: 1px transparent;
+  border-radius: 30px;
+  min-width: 268px;
+  min-height: 220px;
+}
+#remote {
+  background-color: black;
+  position: absolute;
+  bottom: 0vh;
+  left: 70%;
+  margin: -70px 0 0 -170px;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+button {
+  margin: 20px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+button:active {
+  background-color: whitesmoke;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

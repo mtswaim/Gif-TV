@@ -6,6 +6,7 @@
 This is a site where gamers can check out what games I am currently playing and search games by keywords they are interested in, and see if I have played it.
 
 ## Wireframes
+![]('./ScreenShot2019-10-17at7.15.44PM.png')
 I could not get this to work
 
 ### MVP/PostMVP - 5min
