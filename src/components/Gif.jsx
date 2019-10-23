@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import BetterTV from '../BetterTV.png'
 
 export default function Gif(props) {

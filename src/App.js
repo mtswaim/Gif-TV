@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import { getGif } from './services/api-helper'
-import Gif from './components/Gif'
-import Remote from './components/Remote'
 import Footer from './components/Footer'
 import { Route } from 'react-router-dom'
 import About from './components/About'
@@ -29,26 +27,25 @@ class App extends React.Component {
       this.setState({ Gif })
     }
   }
+  handleChangeAlso = async (e) => {
 
-  // componentDidMount = async () => {
-  //   let Gif = await getGif();
-  //   console.log(Gif)
-  // }
-  // handleChange = (e) => {
-  //   const input = e.target.value
-  //   if (e.target.id === 'input') {
-  //     this.setState({
-  //       input: value
+    if (this.state.Gif === "https://media.giphy.com/media/l2SpYkv5xHz7E4zYI/giphy.gif") {
+      this.setState({
+        Gif: 'https://media.giphy.com/media/iF3M9gPPCdulq/giphy.gif'
+      })
+    } else {
+      this.setState({
+        Gif: "https://media.giphy.com/media/l2SpYkv5xHz7E4zYI/giphy.gif"
+      })
+    }
+  }
 
-  //     })
-  //   }
-  // }
 
   render() {
     return (
       <div className="App">
         <Nav />
-        <Route exact path="/" render={() => (<Home gif={this.state.Gif} handleChange={this.handleChange} />)} />
+        <Route exact path="/" render={() => (<Home gif={this.state.Gif} handleChange={this.handleChange} handleChangeAlso={this.handleChangeAlso} />)} />
         <Route path="/about" render={() => (<About />)} />
         <Footer />
       </div>

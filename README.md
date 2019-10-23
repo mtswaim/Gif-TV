@@ -1,9 +1,9 @@
-# We-Like-Games
-![](https://media.giphy.com/media/37Fsl1eFxbhtu/giphy.gif)
+# GIF-TV
+![](https://giphy.com/gifs/7wt7Hu4VLzZT2)
 
 ## Project Description
 
-This is a site where gamers can check out what games I am currently playing and search games by keywords they are interested in, and see if I have played it.
+This is a site where memesters and normies alike can enjoy real, free range, 100% organic GIFs. 
 
 ## Wireframes
 ![]('./ScreenShot2019-10-17at7.15.44PM.png')
@@ -11,18 +11,17 @@ I could not get this to work
 
 ### MVP/PostMVP - 5min
 
-A site that displays what game Matt Swaim is currently playing from the game API
+A site that displays gifs on a tv screen
 
 #### MVP EXAMPLE
 - See a cool site
-- See what games Matt Swaim is playing
-- Read about the games by clicking on them
+- See some gifs
+- Click through to see other Gifs
 
 #### PostMVP EXAMPLE
-- A search function that returns sick heckin games
-- Have flippable cards that return from the search
-- Allow user to choose favorites 
-- Allow them to rate games and add them to a library
+- A heckin sick remote that allows you to cycle Gifs
+- Have a lit background 
+- Have a nice about page that tells true stories
 
 ## React Component Hierarchy
 
@@ -31,9 +30,9 @@ Components:
 - Header
 - Footer 
 - Main
-  - Game-List
-    - Game-Info
-  - Search 
+  - GiF
+  - Remote
+  - About
 
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -56,7 +55,18 @@ Helper functions should be generic enough that they can be reused in other appli
 
 
 ## Code Snippet
+ handleChangeAlso = async (e) => {
 
+    if (this.state.Gif === "https://media.giphy.com/media/l2SpYkv5xHz7E4zYI/giphy.gif") {
+      this.setState({
+        Gif: 'https://media.giphy.com/media/iF3M9gPPCdulq/giphy.gif'
+      })
+    } else {
+      this.setState({
+        Gif: "https://media.giphy.com/media/l2SpYkv5xHz7E4zYI/giphy.gif"
+      })
+    }
+  }
 
 
 ```
