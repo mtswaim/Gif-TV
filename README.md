@@ -35,12 +35,12 @@ Components:
   - About
 
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Structure Components | H | 3hrs| .. | .. |
-| Working with API | H | 4hrs | .. | .. |
-| CSS | H | 20hrs| .. | .. |
-| PostMVP | M | 14hrs| .. | .. |
+| Structure Components | H | 3hrs| 4hr |
+| Working with API | H | 4hrs | 3hr |
+| CSS | H | 20hrs| 30hr |
+| PostMVP | M | 14hrs| 10hr |
 
 
 ## Helper Functions
