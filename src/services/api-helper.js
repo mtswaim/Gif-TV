@@ -12,12 +12,3 @@ export const getGif = async (input) => {
 }
 export default getGif
 
-// export const getGames = async function () {
-//   let response = await axios.get(`https://flynn-cors.herokuapp.com/https://api-v3.igdb.com/games?search=zelda&fields=id,name,screenshots`, {
-//     headers: {
-//       "user-key": 'e10cd9cc47a86de8828eb2ef7baf41e1'
-//     }
-//   })
-//   return response.data
-// }
-// export default getGames

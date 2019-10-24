@@ -45,6 +45,8 @@ img {
   height: 300px;
   border-radius: 10px;
   border: 2px solid black;
+  padding: 10px 0 20px 0;
+  box-shadow: 5px 5px grey;
 }
 #remote-pic {
   position: absolute;
@@ -146,11 +148,105 @@ a {
   top: 30%;
   left: 48%;
   margin: -70px 0 0 -170px;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-   -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
+  -webkit-animation: fadein 2s; 
+  -moz-animation: fadein 2s; 
+   -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
        animation: fadein 2s;
+}
+@media only screen and (max-width: 600px) {
+  #TV {
+    width: 70vw;
+    height: 40vh;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  #picture {
+    top: 5px;
+    left: 25px;
+    width: 220px;
+    height: 255px;
+    z-index: 500;
+  }
+  .Gif {
+    position: absolute;
+    left: 13vw;
+    top: 10vh;
+    width: 600px;
+    height: 370px;
+  }
+  #remote {
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 30px;
+    left: 85%;
+    margin: -70px 0 0 -170px;
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 0 20px 0;
+    box-shadow: 5px 5px grey;
+  }
+  #remote-pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  button {
+    margin-top: 0px;
+    margin-left: 24px;
+    margin-right: 10px;
+    margin-bottom: 20px;;
+    background-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif);
+    background-size: cover;
+    /* border: 1px solid black; */
+    border-radius: 100px;
+    box-shadow: 0 9px black;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-align: center;
+    z-index: 100;
+    font-size: 8px;
+  }
+  #pwr-button {
+    margin: 20px 15px 0 75px;
+    transform: translate(-50%, -50%);
+    background-image: none;
+    background-color: red ;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  #power {
+    top: 10%;
+    left: 15%;
+    position: fixed;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .Nav {
+    text-align: center;
+  }
+  #about {
+    left: 43%;
+  }
 }
 @keyframes fadein {
   from { opacity: 0; }
